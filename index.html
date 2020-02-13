@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MLBB Valentine</title>
+	<link rel="stylesheet" type="text/css" href="./dist/spectre.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="columns">
+			<div class="column col-sm-10 col-6 col-mx-auto">
+				<div class="card mt-2">
+				  <div class="card-image">
+				    <img src="./dist/banner.jpg" class="img-responsive">
+				  </div>
+				  <div class="card-header">
+				    <div class="card-title h5">MLBB Valentine</div>
+				    <div class="card-subtitle text-gray">game booster 😛</div>
+				  </div>
+				  <div class="card-body">
+				    <div class="form-group">
+						  <label class="form-label" for="input-id">ID Game</label>
+						  <input class="form-input" type="text" id="input-id" placeholder="1234567">
+						</div>
+				    <div class="form-group">
+						  <label class="form-label" for="input-server">ID Server</label>
+						  <input class="form-input" type="text" id="input-server" placeholder="1234">
+						</div>
+				  </div>
+				  <div class="card-footer">
+				    <button class="btn btn-primary" onclick="startStop()" id="startStop">Start</button>
+				  </div>
+				</div>
+				<!--  -->
+				<div class="panel mt-2" style="max-width: 100%; flex: 1">
+				  <div class="panel-header">
+				    <div class="panel-title">Results</div>
+				  </div>
+				  <div class="panel-body" style="overflow-y: scroll; height: 220px;" id="cResult">
+				    <ul class="columns" id="result">
+				    </ul>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<p class="text-center">Created with <span class="text-error">&hearts;</span> by <a href="https://instagram.com/alfian_oktafireza" target="_blank">Alfian Oktafireza</a></p>
+	</div>
+	<script type="text/javascript" src="./dist/app.js"></script>
+</body>
+</html>
+
+<!-- <div class="column col-sm-10 col-6 col-mx-auto">
+	<div class="panel mt-2" style="max-width: 100%; flex: 1">
+	  <div class="panel-header">
+	    <div class="panel-title">Comments</div>
+	  </div>
+	  <div class="panel-body" style="overflow-y: scroll; height: 220px;" id="cResult">
+	    <ul id="result">
+	    </ul>
+	  </div>
+	</div>
+</div> -->
